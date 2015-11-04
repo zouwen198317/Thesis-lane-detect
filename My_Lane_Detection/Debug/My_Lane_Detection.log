@@ -1,0 +1,64 @@
+﻿已經開始建置於 2014/7/26 下午 06:55:07。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\Joy\Desktop\My_Lane_Detection - particle 內圈減外圈\My_Lane_Detection\My_Lane_Detection.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\My_Lane_Detection.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\My_Lane_Detection.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt My_Lane_Detection.cpp
+         My_Lane_Detection.cpp
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(5): warning C4627: '#include <math.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'StdAfx.h' 或重建先行編譯標頭
+     1>d:\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>d:\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\opencv\build\include\opencv2\legacy\compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\opencv\build\include\opencv2\legacy\compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\opencv\build\include\opencv2\legacy\blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
+     1>d:\opencv\opencv\build\include\opencv2\legacy\blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 請參閱 'strcat' 的宣告
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(423): warning C4101: 'pData' : 未參考的區域變數
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1257): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1263): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 請參閱 'fscanf' 的宣告
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1393): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1395): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1405): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1410): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1417): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1421): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1428): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1583): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1584): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1614): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1638): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1640): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(1708): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(2968): warning C4715: 'Point_Compare_Vehicle_Color' : 不是所有控制路徑都傳回值
+     1>c:\users\joy\desktop\my_lane_detection - particle 內圈減外圈\my_lane_detection\my_lane_detection.cpp(3011): warning C4715: 'detect_compare_tracking' : 不是所有控制路徑都傳回值
+       ManifestResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joy\Desktop\My_Lane_Detection - particle 內圈減外圈\Debug\My_Lane_Detection.exe" /INCREMENTAL /NOLOGO opencv_calib3d246d.lib opencv_contrib246d.lib opencv_core246d.lib opencv_features2d246d.lib opencv_flann246d.lib opencv_gpu246d.lib opencv_haartraining_engined.lib opencv_highgui246d.lib opencv_imgproc246d.lib opencv_legacy246d.lib opencv_ml246d.lib opencv_nonfree246d.lib opencv_objdetect246d.lib opencv_ocl246d.lib opencv_photo246d.lib opencv_stitching246d.lib opencv_superres246d.lib opencv_ts246d.lib opencv_video246d.lib opencv_videostab246d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\My_Lane_Detection.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joy\Desktop\My_Lane_Detection - particle 內圈減外圈\Debug\My_Lane_Detection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joy\Desktop\My_Lane_Detection - particle 內圈減外圈\Debug\My_Lane_Detection.lib" /MACHINE:X86 Debug\My_Lane_Detection.exe.embed.manifest.res
+         Debug\My_Lane_Detection.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\My_Lane_Detection.exe.embed.manifest" /manifest Debug\My_Lane_Detection.exe.intermediate.manifest
+         所有輸出都是最新的。
+       LinkEmbedManifest:
+         所有輸出都是最新的。
+         My_Lane_Detection.vcxproj -> C:\Users\Joy\Desktop\My_Lane_Detection - particle 內圈減外圈\Debug\My_Lane_Detection.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\My_Lane_Detection.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\My_Lane_Detection.lastbuildstate"。
+     1>專案 "C:\Users\Joy\Desktop\My_Lane_Detection - particle 內圈減外圈\My_Lane_Detection\My_Lane_Detection.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.45
